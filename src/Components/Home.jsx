@@ -1,7 +1,7 @@
 import React from 'react'
 import PROFILE from '../images/Me.png'
 import '../App.css'
-
+import RESUME from './RESUME.pdf'
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
                         where my potentials will be fully discovered while working for the 
                         company dedicatedly
                     </p>
-                    <button className='btn btn-sm btn-outline-light'>DOWNLOAD CV</button>
+                      <a className="my-button btn btn-sm" href={RESUME}>DOWNLOAD CV</a>
                 </div>
                 <div className="col-md-6 order-1 order-md-2 profile">
                     <img src={PROFILE} alt="Profile" className='img-fluid'/>
