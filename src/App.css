@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    color: white;
+}
+/* NavBar Page */
+.navbar{
+    background-color: #4a5360;
+}
+.navbar a{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* Home Page */
+#home{
+    height: 90vh;
+}
+#home .row{
+    padding-top: 100px;
+}
+#home h1{
+    font-family: 'Montserrat', sans-serif;
+}
+#home h4{
+    font-weight: 200;
+}
+.homebox button{
+    margin-top: 20px;
+    border-radius:50px;
+    font-size: small;
+}
+#home p{
+    font-size: 23px;
+}
+.back-image-home{
+    background-color: #001220;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* About section */
+#about{
+    height: 100vh;
+}
+#about a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: blue;
+    font-weight: 600;
+    font-size: large;
+}
+#about a:hover{
+    color: white;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+#about p{
+    font-size: 25px;
+}
+#about .info{
+    padding-top: 100px;
+}
+#about strong{
+    color: rgb(65, 115, 241);
+}
+.qualification{
+    font-size: 20px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    max-height: 380px;
+}
+.about-img img{
+    max-height: 300px;
+}
+.back-image-about{
+    background-image: url('./images/circle-scatter-haikei.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Contact section */
+#contact{
+    height: 100vh;
+}
+.contact img{
+    max-height: 300px;
+}
+#contact .con{
+    padding-top: 80px;
+}
+.back-image-contact{
+    background-color: #001220;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Footer Section */
+#footer{
+    background-color: #8595ad;
+}
+@media only screen and (max-width: 768px) {
+    #home .row{
+        padding-top: 0px;
+    }
+    
+    .about-img{
+        margin-bottom: 50px;
+    }
+    #about .info{
+        padding-top: 15px;
+    }
+    #contact .con {
+        padding-top: 20px;
+    }
+    
+}
