@@ -15,7 +15,7 @@ body{
 
 /* Home Page */
 #home{
-    height: 90vh;
+    height: 100vh;
 }
 #home .row{
     padding-top: 100px;
