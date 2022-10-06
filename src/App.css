@@ -180,3 +180,26 @@ width: 50%;
         }
     
 }
+@media only screen and (max-width: 395px) {
+    /* Images */
+    .profile img {
+        max-height: 300px;
+    }
+    .about-img img {
+        max-height: 250px;
+    }
+    .contact img {
+        max-height: 200px;
+    }
+    /* Button */
+    a.my-button {
+        font-size: 9px;
+    }
+    /* Paragraph */
+    #about p {
+        font-size: 18px;
+    }
+    #home p{
+        font-size: 17px;
+    }
+}
