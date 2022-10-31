@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
     <div className="container-fluid ">
-        <div className="container" id="contact">
+        <div className="container mb-3" id="contact">
         <div className="row">
        
       <div className="form-box">
