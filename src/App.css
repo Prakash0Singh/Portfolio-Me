@@ -4,6 +4,7 @@
 
 body{
     color: white;
+    background-color: #001220;
 }
 /* NavBar Page */
 .navbar{
@@ -141,18 +142,17 @@ width: 50%;
 #contact{
     height: 100vh;
 }
-.contact img{
-    max-height: 300px;
-}
-#contact .con{
-    padding-top: 80px;
-}
-.back-image-contact{
-    background-color: #001220;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+.form-box {
+    max-width: 500px;
+    margin: auto;
+    background: #001220;
+} 
+  input[type="text"], textarea {
+    width: 100%;
+  }
+  input[type=submit]{
+    margin-top: 25px
+  }
 /* Footer Section */
 #footer{
     background-color: #8595ad;
@@ -181,6 +181,21 @@ width: 50%;
     
 }
 @media only screen and (max-width: 395px) {
+    .contact-img{
+        display: none;
+    }
+    .contact-heading{
+        margin-top: 30px;
+    }
+    #about{
+        height: auto;
+    }
+    #home{
+        height: auto;
+    }
+    #contact{
+        height: auto;
+    }
     /* Images */
     .profile img {
         max-height: 300px;
@@ -190,6 +205,7 @@ width: 50%;
     }
     .contact img {
         max-height: 200px;
+        display: none;
     }
     /* Button */
     a.my-button {
@@ -197,9 +213,15 @@ width: 50%;
     }
     /* Paragraph */
     #about p {
-        font-size: 18px;
+        font-size: 17px;
     }
     #home p{
         font-size: 17px;
+    }
+    .back-image-about{
+        display: block;
+    }
+    .form-box{
+        display: block;
     }
 }
