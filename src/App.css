@@ -153,6 +153,10 @@ width: 50%;
   input[type=submit]{
     margin-top: 25px
   }
+.img-fluid-2{
+    max-width: 80%;
+    height: auto;
+}
 /* Footer Section */
 #footer{
     background-color: #8595ad;
