@@ -10,7 +10,7 @@ const Contact = () => {
        
       <div className="form-box">
       <h1 className="display-4 text-center contact-heading">Contact Us</h1>
-      <img src={CONTACT} className="img-fluid contact-img" alt="contact-us" />
+      <img src={CONTACT} className="img-fluid-2 contact-img" alt="contact-us" />
 
       <form action="https://formsubmit.co/d1c6012d19ef63b27156f9fec97fc328" method="POST">
           <div className="form-group">
