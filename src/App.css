@@ -151,11 +151,14 @@ width: 50%;
     width: 100%;
   }
   input[type=submit]{
-    margin-top: 25px
+    margin-top: 8px
   }
 .img-fluid-2{
     max-width: 80%;
     height: auto;
+}
+.user-input {
+    margin: 20px 0px;
 }
 /* Footer Section */
 #footer{
@@ -185,9 +188,6 @@ width: 50%;
     
 }
 @media only screen and (max-width: 395px) {
-    .contact-img{
-        display: none;
-    }
     .contact-heading{
         margin-top: 30px;
     }
