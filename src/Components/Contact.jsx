@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
     <div className="container-fluid ">
-        <div className="container mb-3" id="contact">
+        <div className="container mb-3 mt-3" id="contact">
         <div className="row">
        
       <div className="form-box">
@@ -14,16 +14,13 @@ const Contact = () => {
 
       <form action="https://formsubmit.co/d1c6012d19ef63b27156f9fec97fc328" method="POST">
           <div className="form-group">
-            <label htmlFor="name">NAME</label>
-            <input className="form-control" id="name" type="text" name="name" required/>
+            <input className="form-control user-input" id="name" type="text" name="name" placeholder="Name" required/>
           </div>
           <div className="form-group">
-            <label htmlFor="email">EMAIL</label>
-            <input className="form-control" id="email" type="email" name="email" required/>
+            <input className="form-control user-input" id="email" type="email" name="email" placeholder="E-mail" required/>
           </div>
           <div className="form-group">
-            <label htmlFor="message">MESSAGE</label>
-            <textarea className="form-control" id="message" name="message"></textarea>
+            <textarea className="form-control user-input" id="message" name="message" placeholder="Message..🖊" required></textarea>
           </div>
           <input className="btn btn-primary" type="submit" value="Submit" />
         </form>
