@@ -185,6 +185,33 @@ width: 50%;
         opacity: 100%;
         width: 80%;
         }
+    #home p {
+    font-family: Abyssinica SIL,serif;
+    font-size: 19px;
+}
+.my-button{
+    font-size: 13px;
+}
+.profile img {
+    max-height: 320px;
+}
+
+#home h1{
+    font-size: calc(1.525rem + 3.3vw)!important;
+}
+#home h2{
+    font-size: calc(0.475rem + 2.7vw);
+}
+#home h4{
+font-size: 15px;
+}
+
+.about-img img {
+    max-height: 330px;
+}
+#about p {
+font-size:19px;
+}
     
 }
 @media only screen and (max-width: 395px) {
